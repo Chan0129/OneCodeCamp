@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+}
+
+
+/* This is how you write a comment in CSS */
+
+/* Universal Selector */
+
+*{
+color: violet;
+
+}
+
+
+/* Element Selector */
+p {
+    color: red;
+
+}
+
+
+p {
+    color: brown;
+
+}
+
+/* Class Selector */
+.class-example {
+
+    color: fuchsia;
+}
+
+/* id Selector */
+
+#id-example {
+color:tomato;
+
+}
+
+/* Attribute Selector */
+
+/* Targetting an anchor tag with specific href value = http://www.youtube.com   */
+
+
+a[href] {
+
+color:  green;
+
+}
+
+a[href="http://www.google.com"] {
+
+color:pink;
+
+}
+.headerTitle{
+    color: brown;
+    display: block;
+    text-align: center;
+}
